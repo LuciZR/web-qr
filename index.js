@@ -27,7 +27,7 @@ if (fs.existsSync('./auth_info_baileys')) {
   setTimeout(() => {   process.exit()      }, 3000)
 };
 setTimeout(() => {
-  const { default: makeWASocket, useMultiFileAuthState, Browsers, delay, makeInMemoryStore, } = require("@sampandey001/baileys");
+  const { default: makeWASocket, useMultiFileAuthState, Browsers, delay, makeInMemoryStore, } = require("@shizothetechie/Baileys");
   const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
   async function sᴜʜᴀɪʟ_ʙᴀɪʟᴇʏs_ǫʀ() {
     const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys')
